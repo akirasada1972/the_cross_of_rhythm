@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">The Cross of Rhythm</string>
+    <string name="bt_play_play">Play</string >
+    <string name ="bt_play_stop">Stop</string >
+    <string name ="msg_notification_title_start">Play Started</string >
+    <string name ="msg_notification_text_start">Music Play is Started</string >
+    <string name ="msg_notification_title_finish">Play Stopped</string >
+    <string name ="msg_notification_text_finish">Music Play is Stopped</string >
+    <string name ="notification_channel_name">Sample Notification</string >
+</resources>

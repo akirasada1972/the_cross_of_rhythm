@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <TextView
+        android:id="@+id/text_view03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:text="再生／一時停止" />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:text="停止" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="太鼓のボリューム"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text_view01"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="100"
+            android:textColor="@color/light_green1"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbar01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/transparent"
+        android:progressTint="@color/white"
+        android:thumbTint="@color/light_green1" />
+
+    <TextView
+        android:id="@+id/textView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="BGM"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bgm01"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:text="小川" />
+
+        <Button
+            android:id="@+id/bgm02"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:text="虫" />
+
+        <Button
+            android:id="@+id/bgm03"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:text="雨" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bgm04"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:text="カエル" />
+
+        <Button
+            android:id="@+id/bgm05"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:text="夜" />
+
+        <Button
+            android:id="@+id/bgm06"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:text="海" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bgm07"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_state"
+            app:backgroundTint="@null"
+            android:elevation="10dp"
+            android:translationZ="10dp"
+            android:text="無し" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="BGMのボリューム"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text_view02"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="100"
+            android:textColor="@color/light_green1"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbar02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/transparent"
+        android:progressTint="@color/white"
+        android:thumbTint="@color/light_green1" />
+
+    <TextView
+        android:id="@+id/textView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Copy Control by Djembient Japan"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+</LinearLayout>
